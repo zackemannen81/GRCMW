@@ -1,0 +1,844 @@
+global option -l with value `kuk.log'
+grab flag is unset
+status flag is set
+GIMX 7.9 ARMv6
+Raspbian GNU/Linux 9.4 (stretch)
+Linux 4.14.50+ #1122 Tue Jun 19 12:21:21 BST 2018 unknown
+Bus 001 Device 005: ID 045e:02dd Microsoft Corp. 
+Bus 001 Device 010: ID 413c:3012 Dell Computer Corp. Optical Wheel Mouse
+Bus 001 Device 011: ID 03f0:0024 Hewlett-Packard KU-0316 Keyboard
+Bus 001 Device 002: ID 0424:2504 Standard Microsystems Corp. USB 2.0 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+/:  Bus 01.Port 1: Dev 1, Class=root_hub, Driver=dwc_otg/1p, 480M
+    |__ Port 1: Dev 2, If 0, Class=Hub, Driver=hub/4p, 480M
+        |__ Port 2: Dev 11, If 0, Class=Human Interface Device, Driver=usbhid, 1.5M
+        |__ Port 3: Dev 10, If 0, Class=Human Interface Device, Driver=usbhid, 1.5M
+        |__ Port 4: Dev 5, If 1, Class=Vendor Specific Class, Driver=, 12M
+        |__ Port 4: Dev 5, If 2, Class=Vendor Specific Class, Driver=, 12M
+        |__ Port 4: Dev 5, If 0, Class=Vendor Specific Class, Driver=xpad, 12M
+GIMX adapter detected, controller type is: XOnePad.
+found pass-through device 0x045e:0x02dd
+registered joystick 0 with name "Microsoft X-Box One pad (Firmware 2015)"
+using default refresh period: 4.00ms
+mouse 0 has name 'Dell Dell USB Optical Mouse' and virtual id 0
+keyboard 0 has name 'CHICONY HP Basic USB Keyboard' and virtual id 0
+joystick 0 has name 'Microsoft X-Box One pad (Firmware 2015)' and virtual id 0
+Dump of /home/pi/.gimx/config/XOneAuto.xml:
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <controller id="1" dpi="2000" type="XOnePad">
+    <configuration id="1">
+      <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Aiming" buffer_size="3" filter="0.10"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="abs_axis_9" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="0"/>
+        </button>
+        <button id="abs_axis_8" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_10" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_7" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_11" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="4"/>
+        </button>
+        <button id="abs_axis_12" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="5"/>
+        </button>
+        <button id="abs_axis_0" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="6"/>
+        </button>
+        <button id="abs_axis_1" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="7"/>
+        </button>
+        <button id="abs_axis_2" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="8"/>
+        </button>
+        <button id="abs_axis_15" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="9"/>
+        </button>
+        <button id="abs_axis_16" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="10"/>
+        </button>
+        <button id="abs_axis_3" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="11"/>
+        </button>
+        <button id="abs_axis_5" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="13"/>
+        </button>
+        <button id="abs_axis_6" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="14"/>
+        </button>
+        <button id="abs_axis_4" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="12"/>
+        </button>
+        <button id="abs_axis_15" label="run">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LSHIFT"/>
+        </button>
+        <button id="abs_axis_9" label="jump">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="SPACE"/>
+        </button>
+        <button id="abs_axis_7" label="switch weapon">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_WHEELDOWN"/>
+        </button>
+        <button id="abs_axis_7" label="switch weapon">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_WHEELUP"/>
+        </button>
+        <button id="abs_axis_11" label="toss nade">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="q"/>
+        </button>
+        <button id="abs_axis_12" label="spot">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="abs_axis_8" label="crouch / crawl">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LCTRL"/>
+        </button>
+        <button id="abs_axis_10" label="reload">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="abs_axis_1" label="menu">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="F1"/>
+        </button>
+        <button id="abs_axis_0" label="view">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="F2"/>
+        </button>
+        <button id="abs_axis_2" label="guide">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="ESCAPE"/>
+        </button>
+        <button id="abs_axis_3" label="gasmask">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+        <button id="abs_axis_4" label="tool 1">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_6" label="tool 2">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_5" label="tool 3">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rel_axis_0" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="0" dead_zone="0" multiplier="0.004" exponent="1" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_1" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="1" dead_zone="0" multiplier="0.004" exponent="1" shape=""/>
+        </axis>
+        <axis id="rel_axis_2" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="3" dead_zone="0" multiplier="0.004" exponent="1" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_3" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="4" dead_zone="0" multiplier="0.004" exponent="1" shape="Circle"/>
+        </axis>
+        <axis id="abs_axis_13" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="2" dead_zone="0" multiplier="0.008" exponent="1" shape=""/>
+        </axis>
+        <axis id="abs_axis_14" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="5" dead_zone="0" multiplier="0.008" exponent="1" shape=""/>
+        </axis>
+        <axis id="rel_axis_2" label="Aiming - x axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="20" multiplier="8.00" exponent="0.50" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_3" label="Aiming - y axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="20" multiplier="12.00" exponent="0.50" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_1-" label="Move forward">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </axis>
+        <axis id="rel_axis_1+" label="Move back">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </axis>
+        <axis id="rel_axis_0-" label="Strafe left">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="rel_axis_0+" label="Strafe right">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="abs_axis_13" label="ads">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
+        </axis>
+        <axis id="abs_axis_14" label="shoot">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_LEFT"/>
+        </axis>
+      </axis_map>
+      <joystick_corrections_list/>
+    </configuration>
+    <configuration id="2">
+      <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="abs_axis_9" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="0"/>
+        </button>
+        <button id="abs_axis_8" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_10" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_7" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_11" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="4"/>
+        </button>
+        <button id="abs_axis_12" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="5"/>
+        </button>
+        <button id="abs_axis_0" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="6"/>
+        </button>
+        <button id="abs_axis_1" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="7"/>
+        </button>
+        <button id="abs_axis_2" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="8"/>
+        </button>
+        <button id="abs_axis_15" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="9"/>
+        </button>
+        <button id="abs_axis_16" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="10"/>
+        </button>
+        <button id="abs_axis_3" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="11"/>
+        </button>
+        <button id="abs_axis_5" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="13"/>
+        </button>
+        <button id="abs_axis_6" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="14"/>
+        </button>
+        <button id="abs_axis_4" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="button" id="12"/>
+        </button>
+        <button id="abs_axis_15" label="run">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LSHIFT"/>
+        </button>
+        <button id="abs_axis_9" label="jump">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="SPACE"/>
+        </button>
+        <button id="abs_axis_7" label="switch weapon">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_WHEELDOWN"/>
+        </button>
+        <button id="abs_axis_7" label="switch weapon">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_WHEELUP"/>
+        </button>
+        <button id="abs_axis_11" label="toss nade">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="q"/>
+        </button>
+        <button id="abs_axis_12" label="spot">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="abs_axis_8" label="crouch / crawl">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LCTRL"/>
+        </button>
+        <button id="abs_axis_10" label="reload">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="abs_axis_1" label="menu">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="F1"/>
+        </button>
+        <button id="abs_axis_0" label="view">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="F2"/>
+        </button>
+        <button id="abs_axis_2" label="guide">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="ESCAPE"/>
+        </button>
+        <button id="abs_axis_3" label="gasmask">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+        <button id="abs_axis_4" label="tool 1">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_6" label="tool 2">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_5" label="tool 3">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rel_axis_0" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="0" dead_zone="0" multiplier="0.004" exponent="1" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_1" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="1" dead_zone="0" multiplier="0.004" exponent="1" shape=""/>
+        </axis>
+        <axis id="rel_axis_2" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="3" dead_zone="0" multiplier="0.004" exponent="1" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_3" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="4" dead_zone="0" multiplier="0.004" exponent="1" shape="Circle"/>
+        </axis>
+        <axis id="abs_axis_13" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="2" dead_zone="0" multiplier="0.008" exponent="1" shape=""/>
+        </axis>
+        <axis id="abs_axis_14" label="">
+          <device type="joystick" id="0" name="Microsoft X-Box One pad (Firmware 2015)"/>
+          <event type="axis" id="5" dead_zone="0" multiplier="0.008" exponent="1" shape=""/>
+        </axis>
+        <axis id="rel_axis_2" label="Aiming - x axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="20" multiplier="8.00" exponent="0.50" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_3" label="Aiming - y axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="20" multiplier="12.00" exponent="0.50" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_1-" label="Move forward">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </axis>
+        <axis id="rel_axis_1+" label="Move back">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </axis>
+        <axis id="rel_axis_0-" label="Strafe left">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="rel_axis_0+" label="Strafe right">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="abs_axis_13" label="ads">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
+        </axis>
+        <axis id="abs_axis_14" label="shoot">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_LEFT"/>
+        </axis>
+      </axis_map>
+      <joystick_corrections_list/>
+    </configuration>
+  </controller>
+</root>
+[01;33mWarning: [0mA device name is empty. Multiple mice and keyboards are not managed.
+Haptic core has source haptic_source_rumble for device 045e:02dd
+No haptic sink found for joystick 0 (Microsoft X-Box One pad (Firmware 2015))
+Press the guide button to activate the controller.
+0 1540212484.845637, lstick y (-32768)
+0 1540212485.069511
+0 1540212485.189504, lstick y (32768)
+0 1540212485.405487
+0 1540212485.421525, lstick y (-32768)
+0 1540212485.565518, lstick y (32768)
+0 1540212485.701515, lstick y (-32768)
+0 1540212485.741501, lstick y (-32768)
+0 1540212485.797491
+0 1540212488.130030, rstick x (12803), rstick y (-17387)
+0 1540212488.133510
+0 1540212488.145542, rstick x (18482), rstick y (-21265)
+0 1540212488.149525
+0 1540212488.161587, rstick x (14044), rstick y (-17573)
+0 1540212488.165528
+0 1540212488.177558, rstick x (12834), rstick y (-12897)
+0 1540212488.181514
+0 1540212488.193543, rstick x (8661), rstick y (-14233)
+0 1540212488.197527
+0 1540212488.209555, rstick x (-6482), rstick y (-12448)
+0 1540212488.213496
+0 1540212488.673478, RT (1023)
+0 1540212488.785476
+0 1540212488.913476, RT (1023)
+0 1540212488.993479
+0 1540212489.121479, LT (1023)
+0 1540212489.217502, LT (1023), RT (1023)
+0 1540212489.249492, RT (1023)
+0 1540212489.361461, LT (1023)
+0 1540212489.441478, LT (1023), RT (1023)
+0 1540212489.489494, RT (1023)
+0 1540212489.585485, LT (1023)
+0 1540212489.665489, LT (1023), RT (1023)
+0 1540212489.697497, RT (1023)
+0 1540212489.777529, LT (1023), RT (1023)
+0 1540212489.921472, RT (1023)
+0 1540212489.969485
+0 1540212489.985541, rstick x (-14262)
+0 1540212489.989537
+0 1540212490.001539, rstick x (-5836), rstick y (41255)
+0 1540212490.005505
+0 1540212490.017561, rstick x (-9521), rstick y (30962)
+0 1540212490.021504
+0 1540212490.033539, rstick x (-6111), rstick y (20532)
+0 1540212490.037548
+0 1540212490.049565, rstick x (12411), rstick y (-11804)
+0 1540212490.053515
+0 1540212490.065527, rstick x (20343), rstick y (-13485)
+0 1540212490.069503
+0 1540212490.081540, rstick x (11547), rstick y (-9070)
+0 1540212490.085507
+0 1540212490.097552, rstick y (-12454)
+0 1540212490.101488
+0 1540212490.113539, rstick x (-8656), rstick y (-11167)
+0 1540212490.117522
+0 1540212490.565523, lstick x (-32768)
+0 1540212490.765529
+0 1540212490.845559, lstick x (-32768)
+0 1540212490.901507, RB (255)
+0 1540212491.173518, lstick y (32768), RB (255)
+0 1540212491.293482, RB (255)
+0 1540212491.349506
+0 1540212491.749527, up (255)
+0 1540212491.805514
+0 1540212491.869545, up (255)
+0 1540212491.965524
+0 1540212492.125530, LS (255)
+0 1540212492.189542
+0 1540212492.221522, LS (255)
+0 1540212492.397548
+0 1540212499.153546, rstick x (12803), rstick y (-17387)
+0 1540212499.157532
+0 1540212499.169585, rstick x (13553), rstick y (-22703)
+0 1540212499.173537
+0 1540212499.185538, rstick x (11529), rstick y (-28640)
+0 1540212499.189506
+0 1540212499.201538, rstick x (16537), rstick y (-21732)
+0 1540212499.205503
+0 1540212499.217553, rstick x (18092), rstick y (-28243)
+0 1540212499.221503
+0 1540212499.233531, rstick x (9754), rstick y (-21586)
+0 1540212499.237531
+0 1540212499.249557, rstick x (8588)
+0 1540212499.253504
+0 1540212499.265549, rstick x (-9209), rstick y (5757)
+0 1540212499.269518
+0 1540212499.281539, rstick x (-11112)
+0 1540212499.285503
+0 1540212499.297537, rstick x (-17538), rstick y (-1826)
+0 1540212499.301486
+0 1540212499.313546, rstick x (-16191), rstick y (-5947)
+0 1540212499.317521
+0 1540212499.361540, rstick y (-10312)
+0 1540212499.365504
+0 1540212499.377568, rstick y (10312)
+0 1540212499.381509
+0 1540212499.393528, rstick x (-2944), rstick y (15174)
+0 1540212499.397505
+0 1540212499.409566, rstick x (-11119), rstick y (7190)
+0 1540212499.413507
+0 1540212499.425552, rstick x (15990), rstick y (2142)
+0 1540212499.429542
+0 1540212499.441542, rstick x (17054), rstick y (-18318)
+0 1540212499.445503
+0 1540212499.457566, rstick x (3987), rstick y (-23416)
+0 1540212499.461503
+0 1540212499.473557, rstick x (14164), rstick y (-2671)
+0 1540212499.477530
+0 1540212499.489570, rstick x (18855), rstick y (-7593)
+0 1540212499.493490
+0 1540212499.505539, rstick x (18453), rstick y (-19817)
+0 1540212499.509524
+0 1540212499.521544, rstick x (18847), rstick y (-24353)
+0 1540212499.525504
+0 1540212499.537575, rstick x (25744), rstick y (-29434)
+0 1540212499.541506
+0 1540212499.553534, rstick x (10736), rstick y (-14287)
+0 1540212499.557532
+0 1540212500.097571, rstick x (-5315), rstick y (-33938)
+0 1540212500.101484
+0 1540212500.113539, rstick x (-17237), rstick y (-50607)
+0 1540212500.117518
+0 1540212500.129572, rstick x (-18039), rstick y (-55579)
+0 1540212500.133518
+0 1540212500.145534, rstick x (-12156), rstick y (-54611)
+0 1540212500.149510
+0 1540212500.161591, rstick x (-446), rstick y (-51686)
+0 1540212500.165507
+0 1540212500.177591, rstick x (443), rstick y (-51972)
+0 1540212500.181497
+0 1540212500.193559, rstick x (8900), rstick y (-50244)
+0 1540212500.197549
+0 1540212500.209548, rstick x (23840), rstick y (-41439)
+0 1540212500.213506
+0 1540212500.225540, rstick x (37088), rstick y (-24173)
+0 1540212500.229530
+0 1540212500.241543, rstick x (42662), rstick y (-16867)
+0 1540212500.245500
+0 1540212500.257574, rstick x (43667), rstick y (-10411)
+0 1540212500.261517
+0 1540212500.273537, rstick x (41792)
+0 1540212500.277548
+0 1540212500.289568, rstick x (34191), rstick y (10021)
+0 1540212500.293505
+0 1540212500.305527, rstick x (13333), rstick y (30040)
+0 1540212500.309503
+0 1540212500.321547, rstick x (-16114), rstick y (33206)
+0 1540212500.325504
+0 1540212500.337563, rstick x (-28794), rstick y (40232)
+0 1540212500.341504
+0 1540212500.353520, rstick x (-37239), rstick y (36793)
+0 1540212500.357519
+0 1540212500.369567, rstick x (-39255), rstick y (35617)
+0 1540212500.373501
+0 1540212500.385539, rstick x (-36662), rstick y (36070)
+0 1540212500.389528
+0 1540212500.401530, rstick x (-18673), rstick y (38759)
+0 1540212500.405490
+0 1540212500.417567, rstick x (23580), rstick y (34271)
+0 1540212500.421504
+0 1540212500.433544, rstick x (42741), rstick y (20395)
+0 1540212500.437522
+0 1540212500.449563, rstick x (43058), rstick y (17607)
+0 1540212500.453514
+0 1540212500.465537, rstick x (43905), rstick y (5482)
+0 1540212500.469515
+0 1540212500.481544, rstick x (43827), rstick y (7463)
+0 1540212500.485498
+0 1540212500.497569, rstick x (43849), rstick y (6969)
+0 1540212500.501498
+0 1540212500.513546, rstick x (-31989), rstick y (25691)
+0 1540212500.517526
+0 1540212500.529580, rstick x (-43008), rstick y (18076)
+0 1540212500.533504
+0 1540212500.545537, rstick x (-43726), rstick y (9432)
+0 1540212500.549522
+0 1540212500.561532, rstick x (-43969), rstick y (2994)
+0 1540212500.565485
+0 1540212500.577593, rstick x (-43994), rstick y (998)
+0 1540212500.581516
+0 1540212500.593549, rstick x (-22820), rstick y (-5870)
+0 1540212500.597526
+0 1540212500.609552, rstick x (39892), rstick y (-16621)
+0 1540212500.613507
+0 1540212500.625537, rstick x (43667), rstick y (-10411)
+0 1540212500.629526
+0 1540212500.641540, rstick x (43984), rstick y (-1997)
+0 1540212500.645504
+0 1540212500.657566, rstick x (43997)
+0 1540212500.661563
+0 1540212500.673543, rstick x (-15278), rstick y (8212)
+0 1540212500.677531
+0 1540212500.689570, rstick x (-40153), rstick y (6654)
+0 1540212500.693502
+0 1540212500.705543, rstick x (-43996), rstick y (499)
+0 1540212500.709524
+0 1540212500.721535, rstick x (-43997)
+0 1540212500.725512
+0 1540212500.737557, rstick x (-36741)
+0 1540212500.741506
+0 1540212500.753535, rstick x (20316), rstick y (-11493)
+0 1540212500.757526
+0 1540212500.769562, rstick x (40375), rstick y (-13439)
+0 1540212500.773494
+0 1540212500.785541, rstick x (43990), rstick y (-1498)
+0 1540212500.789532
+0 1540212500.801532, rstick x (43997)
+0 1540212500.805508
+0 1540212500.817555, rstick x (20496), rstick y (2818)
+0 1540212500.821506
+0 1540212500.833547, rstick x (-28020), rstick y (21764)
+0 1540212500.837523
+0 1540212500.849567, rstick x (-42700), rstick y (8200)
+0 1540212500.853482
+0 1540212500.865540, rstick x (-42435), rstick y (522)
+0 1540212500.869520
+0 1540212500.881569, rstick x (-18467), rstick y (1675)
+0 1540212500.885500
+0 1540212500.897572, rstick x (23407), rstick y (-6743)
+0 1540212500.901503
+0 1540212500.913529, rstick x (43159), rstick y (-4586)
+0 1540212500.917509
+0 1540212500.929569, rstick x (43997)
+0 1540212500.933503
+0 1540212500.945531, rstick x (43997)
+0 1540212500.949523
+0 1540212500.961550, rstick x (14909), rstick y (10032)
+0 1540212500.965521
+0 1540212500.977566, rstick x (-30347), rstick y (23661)
+0 1540212500.981511
+0 1540212500.993558, rstick x (-43753), rstick y (8941)
+0 1540212500.997531
+0 1540212501.009568, rstick x (-39592), rstick y (2841)
+0 1540212501.013491
+0 1540212501.025539, rstick x (-12850)
+0 1540212501.029539
+0 1540212501.041545, rstick x (29303), rstick y (-6626)
+0 1540212501.045504
+0 1540212501.057566, rstick x (43994), rstick y (-998)
+0 1540212501.061503
+0 1540212501.073549, rstick x (43948), rstick y (3991)
+0 1540212501.077531
+0 1540212501.089578, rstick x (24149), rstick y (5433)
+0 1540212501.093507
+0 1540212501.105527, rstick x (-31532), rstick y (14953)
+0 1540212501.109493
+0 1540212501.121533, rstick x (-43836), rstick y (1504)
+0 1540212501.125513
+0 1540212501.137562, rstick x (-43997)
+0 1540212501.141505
+0 1540212501.153528, rstick x (-20940)
+0 1540212501.157530
+0 1540212501.169580, rstick x (21419), rstick y (-13752)
+0 1540212501.173506
+0 1540212501.185535, rstick x (42026), rstick y (-5259)
+0 1540212501.189539
+0 1540212501.201549, rstick x (43990), rstick y (1498)
+0 1540212501.205508
+0 1540212501.217554, rstick x (43869), rstick y (6474)
+0 1540212501.221516
+0 1540212501.233545, rstick x (-1027), rstick y (28249)
+0 1540212501.237524
+0 1540212501.249566, rstick x (-42967), rstick y (15365)
+0 1540212501.253500
+0 1540212501.265540, rstick x (-43996), rstick y (499)
+0 1540212501.269517
+0 1540212501.281571, rstick x (-43996), rstick y (-499)
+0 1540212501.285492
+0 1540212501.297567, rstick x (-28232), rstick y (-2652)
+0 1540212501.301492
+0 1540212501.313548, rstick x (33260), rstick y (-23484)
+0 1540212501.317517
+0 1540212501.329577, rstick x (43418), rstick y (-13805)
+0 1540212501.333505
+0 1540212501.345541, rstick x (43888), rstick y (-5978)
+0 1540212501.349523
+0 1540212501.361541, rstick x (43849), rstick y (-6969)
+0 1540212501.365501
+0 1540212501.377568, rstick x (43335), rstick y (-14764)
+0 1540212501.381528
+0 1540212501.393540, rstick x (35921), rstick y (-21997)
+0 1540212501.397525
+0 1540212501.409558, rstick x (20195), rstick y (-32570)
+0 1540212501.413510
+0 1540212501.425525, rstick x (21691), rstick y (-43838)
+0 1540212501.429508
+0 1540212501.441551, rstick x (34934), rstick y (-39513)
+0 1540212501.445505
+0 1540212501.457579, rstick x (38714), rstick y (-38990)
+0 1540212501.461501
+0 1540212501.473548, rstick x (6533), rstick y (7983)
+0 1540212501.477541
+0 1540212501.889582, rstick x (-13221), rstick y (16129)
+0 1540212501.893507
+0 1540212501.905544, rstick x (-8305), rstick y (-20584)
+0 1540212501.909527
+0 1540212501.953539, rstick x (10693), rstick y (4533)
+0 1540212501.957532
+0 1540212501.969562, rstick x (19412), rstick y (12048)
+0 1540212501.973506
+0 1540212501.985579, rstick x (15990), rstick y (2142)
+0 1540212501.989553
+0 1540212502.001544, rstick x (-14164), rstick y (2671)
+0 1540212502.005500
+0 1540212502.017578, rstick x (-18467), rstick y (1675)
+0 1540212502.021499
+0 1540212502.033522, rstick x (-18041)
+0 1540212502.037514
+0 1540212502.049570, rstick x (-13585)
+0 1540212502.053509
+0 1540212502.065549, rstick x (9209), rstick y (-5757)
+0 1540212502.069522
+0 1540212502.081539, rstick x (11778), rstick y (3793)
+0 1540212502.085523
+0 1540212502.097566, rstick x (9209), rstick y (5757)
+0 1540212502.101488
+0 1540212502.145547, rstick x (-8588)
+0 1540212502.149527
+0 1540212509.073533, rstick x (-9209), rstick y (5757)
+0 1540212509.077511
+0 1540212509.089556, rstick x (-12201), rstick y (6366)
+0 1540212509.093506
+0 1540212509.105529, rstick x (-14592), rstick y (4848)
+0 1540212509.109503
+0 1540212509.121541, rstick y (10312)
+0 1540212509.125511
+0 1540212509.137564, rstick x (11351), rstick y (-12543)
+0 1540212509.141511
+0 1540212509.153529, rstick x (13820), rstick y (-9216)
+0 1540212509.157574
+0 1540212509.169580, rstick x (12411), rstick y (-11804)
+0 1540212509.173502
+0 1540212509.185534, rstick x (10386), rstick y (-22072)
+0 1540212509.189536
+0 1540212509.201524, rstick y (-29944)
+0 1540212509.205509
+0 1540212509.217563, rstick x (-10815), rstick y (-28918)
+0 1540212509.221513
+0 1540212509.233529, rstick x (-10670), rstick y (-25420)
+0 1540212509.237536
+0 1540212509.249556, rstick x (-1137), rstick y (-26437)
+0 1540212509.253510
+0 1540212509.265532, rstick x (-2023), rstick y (-18703)
+0 1540212509.269538
+0 1540212509.281529, rstick x (-10280), rstick y (-10023)
+0 1540212509.285511
+0 1540212509.297551, rstick x (-6533), rstick y (-7983)
+0 1540212509.301513
+0 1540212509.457516, LT (1023)
+0 1540212509.713479, LT (1023), RT (1023)
+0 1540212509.729513, LT (1023)
+0 1540212509.745481, LT (1023), RT (1023)
+0 1540212509.937509, RT (1023)
+0 1540212510.065499, LT (1023), RT (1023)
+0 1540212510.145490, LT (1023)
+0 1540212510.273493, LT (1023), RT (1023)
+0 1540212510.337516, RT (1023)
+0 1540212510.449557, rstick x (-10016), LT (1023), RT (1023)
+0 1540212510.453511, LT (1023), RT (1023)
+0 1540212510.465531, rstick x (-10016), LT (1023), RT (1023)
+0 1540212510.469542, LT (1023), RT (1023)
+0 1540212510.481532, rstick x (-8588), LT (1023), RT (1023)
+0 1540212510.485507, LT (1023), RT (1023)
+0 1540212510.497507, LT (1023)
+0 1540212510.545517, rstick x (8588), LT (1023)
+0 1540212510.549537, LT (1023)
+0 1540212510.561519, rstick x (10016), LT (1023)
+0 1540212510.565510, LT (1023)
+0 1540212510.577543, rstick x (9209), rstick y (5757), LT (1023)
+0 1540212510.581507, LT (1023)
+0 1540212510.609555, rstick x (9724), rstick y (8298), LT (1023)
+0 1540212510.613502, LT (1023)
+0 1540212510.625539, rstick x (9724), rstick y (8298), LT (1023), RT (1023)
+0 1540212510.629534, LT (1023), RT (1023)
+0 1540212510.641522, rstick x (6533), rstick y (7983), LT (1023), RT (1023)
+0 1540212510.645492, LT (1023), RT (1023)
+0 1540212510.657549, rstick x (10016), LT (1023), RT (1023)
+0 1540212510.661551, LT (1023), RT (1023)
+0 1540212510.673517, rstick x (10016), LT (1023), RT (1023)
+0 1540212510.677536, LT (1023), RT (1023)
+0 1540212510.689553, rstick x (11778), rstick y (-3793), LT (1023), RT (1023)
+0 1540212510.693542, LT (1023), RT (1023)
+0 1540212510.705527, rstick x (12850), LT (1023), RT (1023)
+0 1540212510.709514, LT (1023), RT (1023)
+0 1540212510.721546, rstick x (11112), RT (1023)
+0 1540212510.725514, RT (1023)
+0 1540212510.737542, rstick x (11112), RT (1023)
+0 1540212510.741510, RT (1023)
+0 1540212510.769549, rstick y (-10312), RT (1023)
+0 1540212510.773513, RT (1023)
+0 1540212510.785528, rstick x (-10693), rstick y (-4533), RT (1023)
+0 1540212510.789536, RT (1023)
+0 1540212510.801536, rstick x (-11778), rstick y (-3793), LT (1023), RT (1023)
+0 1540212510.805511, LT (1023), RT (1023)
+0 1540212510.817539, rstick x (-9209), rstick y (-5757), LT (1023), RT (1023)
+0 1540212510.821533, LT (1023), RT (1023)
+0 1540212510.833526, rstick x (-11119), rstick y (-7190), LT (1023), RT (1023)
+0 1540212510.837534, LT (1023), RT (1023)
+0 1540212510.849553, rstick x (-11778), rstick y (-3793), LT (1023), RT (1023)
+0 1540212510.853498, LT (1023), RT (1023)
+0 1540212510.865532, rstick x (-9209), rstick y (-5757), LT (1023)
+0 1540212510.869535, LT (1023)
+0 1540212510.881525, rstick x (-4604), rstick y (-11514), LT (1023)
+0 1540212510.885508, LT (1023)
+0 1540212510.897539, rstick x (-10736), rstick y (-14287), LT (1023)
+0 1540212510.901511, LT (1023)
+0 1540212510.913522, rstick x (-7734), rstick y (9785)
+0 1540212510.917509
+0 1540212510.929554, rstick x (11486), rstick y (19069)
+0 1540212510.933506
+0 1540212510.945518, rstick x (17641), rstick y (12081)
+0 1540212510.949567
+0 1540212510.961524, rstick x (12036)
+0 1540212510.965512
+0 1540212510.977546, rstick x (-10016)
+0 1540212510.981505
+0 1540212510.993538, rstick x (-9209), rstick y (-5757)
+0 1540212510.997526
+0 1540212514.997533, left (255), LB (255)
+0 1540212515.165528, LB (255), LS (255)
+0 1540212515.237542, A (255), LS (255)
+0 1540212515.261495, LS (255)
+0 1540212515.373507
+0 1540212515.949529, B (255), A (255), LS (255)
+0 1540212516.021462, A (255)
+0 1540212516.109521, menu (255)
+0 1540212516.125492
+0 1540212516.181494, LB (255)
+0 1540212516.381524, lstick y (-32768), down (255)
+0 1540212516.469519, RB (255)
+0 1540212516.525517, X (255)
+0 1540212516.693490
+Exiting

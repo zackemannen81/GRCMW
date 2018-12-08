@@ -1,0 +1,197 @@
+<root>
+  <controller dpi="0" id="1" type="Sixaxis">
+    <configuration id="1">
+      <trigger button_id="" delay="0" id="" name="" switch_back="no" type="" />
+      <mouse_options_list />
+      <intensity_list />
+      <button_map>
+        <button id="abs_axis_6" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="15" type="button" />
+        </button>
+        <button id="abs_axis_4" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="16" type="button" />
+        </button>
+        <button id="abs_axis_3" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="13" type="button" />
+        </button>
+        <button id="abs_axis_5" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="14" type="button" />
+        </button>
+        <button id="abs_axis_15" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="11" type="button" />
+        </button>
+        <button id="abs_axis_16" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="12" type="button" />
+        </button>
+        <button id="abs_axis_0" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="8" type="button" />
+        </button>
+        <button id="abs_axis_1" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="9" type="button" />
+        </button>
+        <button id="abs_axis_2" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event id="10" type="button" />
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rel_axis_0" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="0" multiplier="0.004" shape="Circle" type="axis" />
+        </axis>
+        <axis id="rel_axis_1" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="1" multiplier="0.004" shape="Circle" type="axis" />
+        </axis>
+        <axis id="rel_axis_2" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="2" multiplier="0.004" shape="Circle" type="axis" />
+        </axis>
+        <axis id="rel_axis_3" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="3" multiplier="0.004" shape="Circle" type="axis" />
+        </axis>
+        <axis id="abs_axis_14" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="13" multiplier="0.008" shape="" type="axis" />
+        </axis>
+        <axis id="abs_axis_13" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="12" multiplier="0.008" shape="" type="axis" />
+        </axis>
+        <axis id="abs_axis_9" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="18" multiplier="0.008" shape="" type="axis" />
+        </axis>
+        <axis id="abs_axis_10" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="19" multiplier="0.008" shape="" type="axis" />
+        </axis>
+        <axis id="abs_axis_8" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="17" multiplier="0.008" shape="" type="axis" />
+        </axis>
+        <axis id="abs_axis_7" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="16" multiplier="0.008" shape="" type="axis" />
+        </axis>
+        <axis id="abs_axis_11" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="14" multiplier="0.008" shape="" type="axis" />
+        </axis>
+        <axis id="abs_axis_12" label="">
+          <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+          <event dead_zone="0" exponent="1" id="15" multiplier="0.008" shape="" type="axis" />
+        </axis>
+      </axis_map>
+      <joystick_corrections_list />
+      <force_feedback>
+        <device id="0" name="Sony PLAYSTATION(R)3 Controller" type="joystick" />
+        <inversion enable="no" />
+        <gain constant="0" damper="0" rumble="0" spring="0" />
+      </force_feedback>
+    </configuration>
+  </controller>
+<controller dpi="0" id="1" type="XOnePad">
+    <configuration id="1">
+      <trigger button_id="" delay="0" id="" name="" switch_back="no" type="" />
+      <intensity_list />
+      <button_map>
+        <button id="cross" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="0" type="button" />
+        </button>
+        <button id="circle" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="1" type="button" />
+        </button>
+        <button id="square" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="2" type="button" />
+        </button>
+        <button id="triangle" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="3" type="button" />
+        </button>
+        <button id="l1" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="4" type="button" />
+        </button>
+        <button id="r1" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="5" type="button" />
+        </button>
+        <button id="select" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="6" type="button" />
+        </button>
+        <button id="start" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="7" type="button" />
+        </button>
+        <button id="PS" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="8" type="button" />
+        </button>
+        <button id="l3" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="9" type="button" />
+        </button>
+        <button id="r3" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="10" type="button" />
+        </button>
+        <button id="up" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="11" type="button" />
+        </button>
+        <button id="down" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="13" type="button" />
+        </button>
+        <button id="left" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="14" type="button" />
+        </button>
+        <button id="right" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event id="12" type="button" />
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="lstick x" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event buffer_size="1" dead_zone="0" exponent="1" filter="0.00" id="0" multiplier="0.004" shape="Circle" type="axis" />
+        </axis>
+        <axis id="lstick y" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event buffer_size="1" dead_zone="0" exponent="1" filter="0.00" id="1" multiplier="0.004" shape="Circle" type="axis" />
+        </axis>
+        <axis id="rstick x" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event buffer_size="1" dead_zone="0" exponent="1" filter="0.00" id="3" multiplier="0.004" shape="Circle" type="axis" />
+        </axis>
+        <axis id="rstick y" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event buffer_size="1" dead_zone="0" exponent="1" filter="0.00" id="4" multiplier="0.004" shape="Circle" type="axis" />
+        </axis>
+        <axis id="l2" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event buffer_size="1" dead_zone="0" exponent="1" filter="0.00" id="2" multiplier="0.008" shape="" type="axis" />
+        </axis>
+        <axis id="r2" label="">
+          <device id="0" name="Microsoft X-Box One pad" type="joystick" />
+          <event buffer_size="1" dead_zone="0" exponent="1" filter="0.00" id="5" multiplier="0.008" shape="" type="axis" />
+        </axis>
+      </axis_map>
+    </configuration>
+  </controller>
+</root>

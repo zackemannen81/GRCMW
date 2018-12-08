@@ -1,0 +1,19 @@
+[Unit]
+Description=GIMX
+After=syslog.target network.target
+
+[Service]
+User=pi
+Type=simple
+# Replace /dev/ttyUSB0 with /dev/ttyAMA0 when using the on-board UART interface
+#ExecStart=/usr/bin/gimx -p /dev/ttyAMA0 -c XOneKBD.xml --nograb
+#ExecStart=/usr/bin/gimx -p /dev/ttyAMA0 -c PS4_BF1.xml --nograb
+ExecStart=/usr/bin/python /home/pi/monandblink.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
+
+

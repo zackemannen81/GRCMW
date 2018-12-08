@@ -1,0 +1,3 @@
+#If config1.xml is loaded, macro1.txt is read.
+XOneKBD.xml/BF1Macros.txt
+
